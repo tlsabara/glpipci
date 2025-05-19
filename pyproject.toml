@@ -16,7 +16,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
-[project]
 dependencies = [
     "anyio==4.9.0",
     "backports.tarfile==1.2.0",
