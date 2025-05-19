@@ -1,6 +1,8 @@
 
 # pyglpi
 
+![PyPI](https://img.shields.io/pypi/v/pyglpi) ![Python Version](https://img.shields.io/pypi/pyversions/pyglpi) ![License](https://img.shields.io/pypi/l/pyglpi) ![Beta](https://img.shields.io/badge/status-beta-yellow)
+
 Um cliente Python para a API do GLPI.
 
 ## Instalação
