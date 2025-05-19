@@ -6,3 +6,6 @@
 /.idea/pyglpi.iml
 /.idea/vcs.xml
 venv/
+dist/
+*.egg-info/
+build/
