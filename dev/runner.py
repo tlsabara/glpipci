@@ -2,10 +2,10 @@ from sqlalchemy import create_engine
 from dotenv import load_dotenv
 
 from .queries import list_target_tickets, get_ticket_followups, get_ticket_solutions
-from pyglpi.comunicator.api import GLPIApiClient
-from pyglpi.comunicator.v10_0.endpoints.tickets.core import GlpiTicket
-from pyglpi.comunicator.v10_0.endpoints.tickets.itil_folowups import GlpiTicketItilFollowups
-from pyglpi.comunicator.v10_0.endpoints.tickets.itil_solutions import GlpiTicketItilSolutions
+from glpipci.comunicator.api import GLPIApiClient
+from glpipci.comunicator.v10_0.endpoints.tickets.core import GlpiTicket
+from glpipci.comunicator.v10_0.endpoints.tickets.itil_folowups import GlpiTicketItilFollowups
+from glpipci.comunicator.v10_0.endpoints.tickets.itil_solutions import GlpiTicketItilSolutions
 
 def get_target_list(engine):
     """Coleta a lista de tickets alvos

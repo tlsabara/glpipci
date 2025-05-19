@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 import httpx
 
-from pyglpi.commons.webs import BasicAuth
-from pyglpi.comunicator.v10_0.interface_errors import (
+from glpipci.commons.webs import BasicAuth
+from glpipci.comunicator.v10_0.interface_errors import (
     InitSessionError,
     ClientGlpiError401,
     ClientGlpiError400,

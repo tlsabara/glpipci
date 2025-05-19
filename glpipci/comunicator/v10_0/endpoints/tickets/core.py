@@ -1,4 +1,4 @@
-from pyglpi.comunicator.v10_0.api import GLPIApiClient
+from glpipci.comunicator.v10_0.api import GLPIApiClient
 
 CONTEXT_URI_PATTERN = "/Ticket"
 

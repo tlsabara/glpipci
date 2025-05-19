@@ -1,5 +1,6 @@
 
-# pyglpi
+# glpipci - GLPI Python Comunicator Interface - [unofficial]
+
 
 ![PyPI](https://img.shields.io/pypi/v/pyglpi) ![Python Version](https://img.shields.io/pypi/pyversions/pyglpi) ![License](https://img.shields.io/pypi/l/pyglpi) ![Beta](https://img.shields.io/badge/status-beta-yellow)
 
@@ -10,7 +11,7 @@ Um cliente Python para a API do GLPI.
 Para instalar o pacote, use o seguinte comando:
 
 ```bash
-pip install pyglpi
+pip install glpipci
 ```
 
 ## Uso
@@ -18,7 +19,7 @@ pip install pyglpi
 Exemplo de como usar o pacote
 
 ```python
-from pyglpi.comunicator.v10_0.api import GLPIApiClient
+from glpipci.comunicator.v10_0.api import GLPIApiClient
 
 client = GLPIApiClient(username="admin", password="password")
 response = client.make_get("http://localhost:8090/apirest.php/some_endpoint")
