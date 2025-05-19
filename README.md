@@ -2,7 +2,7 @@
 # glpipci - GLPI Python Comunicator Interface - [unofficial]
 
 
-![PyPI](https://img.shields.io/pypi/v/pyglpi) ![Python Version](https://img.shields.io/pypi/pyversions/pyglpi) ![License](https://img.shields.io/pypi/l/pyglpi) ![Beta](https://img.shields.io/badge/status-beta-yellow)
+![PyPI](https://img.shields.io/pypi/v/glpipci) ![Python Version](https://img.shields.io/pypi/pyversions/glpipci) ![License](https://img.shields.io/pypi/l/glpipci) ![Beta](https://img.shields.io/badge/status-beta-yellow)
 
 Um cliente Python para a API do GLPI.
 
