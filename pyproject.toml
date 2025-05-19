@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyglpi"  # Nome do pacote no PyPI
+version = "0.1.0"  # Versão inicial
+description = "Um cliente Python para a API do GLPI"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Seu Nome", email = "seuemail@example.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "httpx",
+    "python-dotenv"
+]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/tlsabara/pyglpi"
