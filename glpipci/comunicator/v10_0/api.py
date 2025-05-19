@@ -22,7 +22,6 @@ class GlpiApiHeadersData:
                  user_token: str | None = None,
                  session_token: str | None = None,
                  ):
-        self.load_from_env()
         self.app_token = app_token or self._ENV_APP_TOKEN
         self.user_token = user_token or self._ENV_USER_TOKEN
         self.session_token = session_token
